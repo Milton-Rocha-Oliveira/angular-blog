@@ -1,3 +1,6 @@
+*{
+    flex-wrap: wrap;
+}
 .container__articles{
     margin-top: 0.5rem;
 
