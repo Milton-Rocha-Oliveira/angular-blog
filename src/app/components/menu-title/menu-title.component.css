@@ -27,7 +27,7 @@
 @media(max-width: 1200px){
     .container__menu-title{
         width: 1200px;
-        background-size: 25rem;
+        background-size: 23rem;
     }
     
    .container__menu-title > h1{
@@ -47,13 +47,28 @@
 }
 
 @media(max-width: 800px){
-    *{
-        width: 800px;
-    }
+   
 }
 
 @media(max-width: 400px){
-    *{
+    .container__menu-title{
         width: 400px;
+        background-size: 22rem;
+    }
+    
+   .container__menu-title > h1{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+    padding: 0;
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'segoe UI';
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff00;
+    
     }
 }
