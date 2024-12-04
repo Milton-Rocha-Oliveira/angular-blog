@@ -2,21 +2,43 @@
 .container__menu-bar > ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 3rem;
 }
 
 .container__menu-bar > ul >li{
-   margin-right: 50px;
+   margin:auto;
    list-style: none;
+   font-weight: 800;
 }
 
 @media(max-width: 1200px){
-   
+    .container__menu-bar > ul{
+        gap: 2.5rem;
+    }
+    
+    .container__menu-bar > ul >li{
+       font-weight: 600;
+    }
 }
 
 @media(max-width: 800px){
+    .container__menu-bar > ul{
+        gap: 2.1rem;
+    }
     
+    .container__menu-bar > ul >li{
+       font-weight: 500;
+    }
 }
 
 @media(max-width: 400px){
     
+.container__menu-bar > ul{
+    gap: 2rem;
+}
+
+.container__menu-bar > ul >li{
+   font-weight: 400;
+}
 }

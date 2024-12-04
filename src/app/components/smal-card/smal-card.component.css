@@ -34,7 +34,31 @@
 }
 
 @media(max-width: 1200px){
-   
+    .container__small-card{
+        width: 500px;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .small-card__photo > img {
+        width: 180px;
+        height: 140px;
+        min-width: 180px;
+        max-width: 180px;
+        margin-right: 0.5rem;
+    }
+    
+    
+    .small-card__title > h1{
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .small-card__title > p{
+        font-weight: 300;
+        font-size: 0.8rem;
+        color: grey;
+    }
 }
 
 @media(max-width: 800px){
@@ -43,8 +67,9 @@
 
 @media(max-width: 400px){
     .container__small-card{
-        width: 400px;
-        margin-bottom: 15px;
+        width: 380px;
+        margin: auto;
+        margin-bottom: 1rem;
     }
     .small-card__photo > img {
         width: 180px;
