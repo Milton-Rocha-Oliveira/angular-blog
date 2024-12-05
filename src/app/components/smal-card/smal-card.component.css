@@ -1,6 +1,6 @@
 .container__small-card{
     width: 700px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 .container__small-card-content{
     display: flex;
@@ -35,39 +35,66 @@
 
 @media(max-width: 1200px){
     .container__small-card{
-        width: 500px;
-        margin: auto;
+        width: 700px;
+        height: 230px;
         margin-bottom: 1rem;
+        margin-left: 0rem;
     }
     .small-card__photo > img {
-        width: 180px;
-        height: 140px;
+        width: 250px;
+        height: 180px;
         min-width: 180px;
-        max-width: 180px;
+        max-width: 250px;
         margin-right: 0.5rem;
     }
     
     
     .small-card__title > h1{
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
     
     .small-card__title > p{
         font-weight: 300;
-        font-size: 0.8rem;
+        font-size: 1.3rem;
         color: grey;
     }
 }
 
 @media(max-width: 800px){
     
+    .container__small-card{
+        width: 780px;
+        height: 280px;
+        margin-bottom: 1rem;
+        margin-left: 0rem;
+    }
+    .small-card__photo > img {
+        width: 250px;
+        height: 180px;
+        min-width: 180px;
+        max-width: 250px;
+        margin-right: 0.5rem;
+    }
+    
+    
+    .small-card__title > h1{
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .small-card__title > p{
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
 }
 
 @media(max-width: 400px){
     .container__small-card{
         width: 380px;
+        height: 160px;
         margin: auto;
         margin-bottom: 1rem;
     }
@@ -89,7 +116,6 @@
     .small-card__title > p{
         font-weight: 300;
         font-size: 0.8rem;
-        color: grey;
     }
     
 }

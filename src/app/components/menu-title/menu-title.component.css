@@ -39,12 +39,22 @@
 }
 
 @media(max-width: 800px){
-   
+    .container__menu-title{
+        width: 800px;
+        background-size: 80rem;
+    }
+    
+   .container__menu-title > h1{
+    margin-left: 30rem;
+    margin-right: 2rem;
+    font-weight: 100;
+    font-size: 3rem;
+    }
 }
 
 @media(max-width: 400px){
     .container__menu-title{
-        width: 390px;
+        width: 400px;
         background-size: 25rem;
     }
     
