@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
 }
 
 .big-card__title > h1{
@@ -23,6 +24,11 @@
 .big-card__photo{
     width: 100%;
     min-width: 400px;
+    max-width: 800px;
+
+}
+.big-card__photo >img{
+    width: 400px;
 }
 @media(max-width: 1200px){
     .container__big-card{
