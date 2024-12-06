@@ -1,4 +1,6 @@
-
+.container__menu-bar{
+    width: 100%;
+}
 .container__menu-bar > ul{
     padding: 0.5rem;
     display: flex;
@@ -14,6 +16,9 @@
 }
 
 @media(max-width: 1200px){
+    .container__menu-bar{
+        width: 1200px;
+    }
     .container__menu-bar > ul{
         gap: 2.5rem;
     }
@@ -24,6 +29,9 @@
 }
 
 @media(max-width: 800px){
+    .container__menu-bar{
+        width: 800px;
+    }
     .container__menu-bar > ul{
         gap: 2.1rem;
     }
@@ -34,12 +42,14 @@
 }
 
 @media(max-width: 400px){
-    
-.container__menu-bar > ul{
+    .container__menu-bar{
+        width: 400px;
+    }
+    .container__menu-bar > ul{
     gap: 2rem;
-}
+    }
 
-.container__menu-bar > ul >li{
+    .container__menu-bar > ul >li{
    font-weight: 400;
-}
+    }
 }
