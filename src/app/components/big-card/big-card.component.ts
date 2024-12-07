@@ -14,5 +14,7 @@ export class BigCardComponent {
   @Input()
   title:string =""
   @Input()
+  bigCardLink:string = ""
+  @Input()
   description:string = ""
 }

@@ -1,0 +1,31 @@
+*{
+    flex-wrap: wrap;
+}
+.container__filmes-series{
+    margin: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+@media(max-width: 1200px){
+    .container__filmes-series{
+        width: 1200px;
+    }
+}
+
+@media(max-width: 800px){
+    .container__filmes-series{
+        width: 800px;
+    }
+}
+
+@media(max-width: 400px){
+    .container__filmes-series{
+        width: 400px;
+    }
+}
