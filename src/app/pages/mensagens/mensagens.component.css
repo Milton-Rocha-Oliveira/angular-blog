@@ -1,0 +1,39 @@
+ .container__mensagens{
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+ }
+
+ .container__mensagens-textos{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+ }
+
+.container-mensagens-textos-texto{
+    font-size: 3rem;
+    font-weight: 300;
+
+    margin-bottom: 1rem;
+ }
+
+ .container__mensagens-videos{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+ }
+
+ .container__mensagens-videos-texto{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+ }
